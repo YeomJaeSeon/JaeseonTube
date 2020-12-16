@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Header from './components/Header/Header';
 import Videos from './components/Videos/Videos';
 import styles from './App.module.css';
@@ -11,18 +11,22 @@ const App = ({ youtube }) => {
   useEffect(() => {
     youtube.mostPopular().then((result) => setVideos(result));
   }, []);
-  const search = (query) => {
+
+  const search = useCallback((query) => {
     youtube.search(query).then((result) => {
       setVideos(result);
       setSelectedVideos(null);
     });
-  };
-  const click = (video) => {
+  }, []);
+
+  const click = useCallback((video) => {
     setSelectedVideos(video);
-  };
-  const goHome = () => {
+  }, []);
+
+  const goHome = useCallback(() => {
     setSelectedVideos(null);
-  };
+  }, []);
+
   return (
     <section className={styles.container}>
       <section className={styles.box1}>

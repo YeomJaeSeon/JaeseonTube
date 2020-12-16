@@ -1,7 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, memo } from 'react';
 import styles from './Header.module.css';
 
-const Header = ({ onSearch, goHome }) => {
+const Header = memo(({ onSearch, goHome }) => {
   const inputRef = useRef();
   const removeBtnRef = useRef();
   const onSubmit = (e) => {
@@ -54,6 +54,6 @@ const Header = ({ onSearch, goHome }) => {
       </form>
     </header>
   );
-};
+});
 
 export default Header;

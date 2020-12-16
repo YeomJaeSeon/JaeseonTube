@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Video from '../Video/Video';
 import styles from './Videos.module.css';
 
-const Videos = ({ videos, handleClick, displayType }) => {
+const Videos = memo(({ videos, handleClick, displayType }) => {
   return (
     <ul className={styles.videos}>
       {videos.map((video) => {
@@ -17,6 +17,6 @@ const Videos = ({ videos, handleClick, displayType }) => {
       })}
     </ul>
   );
-};
+});
 
 export default Videos;

@@ -25,7 +25,7 @@ const Header = memo(({ onSearch, goHome }) => {
     <header className={styles.header}>
       <section className={styles.youtube} onClick={goHome}>
         <img className={styles.logo} src="/images/logo.png" alt="youtube" />
-        <h1 className={styles.title}>YouTube</h1>
+        <h1 className={styles.title}>JsTube</h1>
       </section>
       <form onSubmit={onSubmit} className={styles.form}>
         <input

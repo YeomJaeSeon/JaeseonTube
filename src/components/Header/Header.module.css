@@ -7,6 +7,7 @@
   width: 80.3%;
   border-radius: 0 0 8px 8px;
   padding: 0 0.5rem;
+  cursor: text;
 }
 .youtube {
   display: flex;
@@ -35,10 +36,15 @@
   align-items: center;
   background-color: #bdbdbd;
 }
-.x {
-  font-size: 30px;
-  margin-right: 0.2rem;
-  color: white;
+.button0 {
+  background-color: #bdbdbd;
+  border: none;
+  outline: none;
+  color: #8d8d8d;
+  font-size: 2em;
+  padding-right: 1rem;
+  cursor: pointer;
+  visibility: hidden;
 }
 .button {
   width: 100%;

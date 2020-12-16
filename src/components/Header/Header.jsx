@@ -3,16 +3,23 @@ import styles from './Header.module.css';
 
 const Header = ({ onSearch, goHome }) => {
   const inputRef = useRef();
+  const removeBtnRef = useRef();
   const onSubmit = (e) => {
     e.preventDefault();
     const value = inputRef.current.value;
     onSearch(value);
-    inputRef.current.value = '';
-    inputRef.current.focus();
+    removeAll();
   };
   const writeForSearch = () => {
-    // const value = inputRef.current.value;
-    // if(value){}
+    const value = inputRef.current.value;
+    const removeBtn = removeBtnRef.current;
+    if (value) removeBtn.style.visibility = 'visible';
+    else removeBtn.style.visibility = 'hidden';
+  };
+  const removeAll = () => {
+    inputRef.current.value = '';
+    inputRef.current.focus();
+    removeBtnRef.current.style.visibility = 'hidden';
   };
   return (
     <header className={styles.header}>
@@ -28,7 +35,14 @@ const Header = ({ onSearch, goHome }) => {
           onChange={writeForSearch}
         />
         <section className={styles.right}>
-          <span className={styles.x}>x</span>
+          <button
+            className={styles.button0}
+            ref={removeBtnRef}
+            type="button"
+            onClick={removeAll}
+          >
+            x
+          </button>
           <button className={styles.button}>
             <img
               className={styles.button_img}

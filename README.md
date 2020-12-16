@@ -5,7 +5,6 @@
 - PostCSS
 
 ## 홈화면
-- 가장 유명한 영상들 랜더
 ![스크린샷(793)](https://user-images.githubusercontent.com/67785334/102315522-a2edf180-3fb7-11eb-9608-63e9c1f48160.png)
 
 ## 영상 재생화면

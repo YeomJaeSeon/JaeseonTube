@@ -4,6 +4,9 @@
 - react 유튜브 어플리케이션
 - PostCSS
 
+## 재선튜브 주소
+https://yeomjaeseon.github.io/JaeseonTube/
+
 ## 홈화면
 ![스크린샷(793)](https://user-images.githubusercontent.com/67785334/102315522-a2edf180-3fb7-11eb-9608-63e9c1f48160.png)
 

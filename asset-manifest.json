@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JaeseonTube/static/css/main.6d3d0e31.chunk.css",
+    "main.js": "/JaeseonTube/static/js/main.5de1cdeb.chunk.js",
+    "main.js.map": "/JaeseonTube/static/js/main.5de1cdeb.chunk.js.map",
+    "runtime-main.js": "/JaeseonTube/static/js/runtime-main.22e5f5b7.js",
+    "runtime-main.js.map": "/JaeseonTube/static/js/runtime-main.22e5f5b7.js.map",
+    "static/js/2.b409b8b0.chunk.js": "/JaeseonTube/static/js/2.b409b8b0.chunk.js",
+    "static/js/2.b409b8b0.chunk.js.map": "/JaeseonTube/static/js/2.b409b8b0.chunk.js.map",
+    "static/js/3.b6758138.chunk.js": "/JaeseonTube/static/js/3.b6758138.chunk.js",
+    "static/js/3.b6758138.chunk.js.map": "/JaeseonTube/static/js/3.b6758138.chunk.js.map",
+    "index.html": "/JaeseonTube/index.html",
+    "static/css/main.6d3d0e31.chunk.css.map": "/JaeseonTube/static/css/main.6d3d0e31.chunk.css.map",
+    "static/js/2.b409b8b0.chunk.js.LICENSE.txt": "/JaeseonTube/static/js/2.b409b8b0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22e5f5b7.js",
+    "static/js/2.b409b8b0.chunk.js",
+    "static/css/main.6d3d0e31.chunk.css",
+    "static/js/main.5de1cdeb.chunk.js"
+  ]
+}

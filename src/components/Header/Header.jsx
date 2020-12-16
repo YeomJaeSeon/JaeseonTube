@@ -24,7 +24,7 @@ const Header = memo(({ onSearch, goHome }) => {
   return (
     <header className={styles.header}>
       <section className={styles.youtube} onClick={goHome}>
-        <img className={styles.logo} src="/images/logo.png" alt="youtube" />
+        <img className={styles.logo} src="./images/logo.png" alt="youtube" />
         <h1 className={styles.title}>JsTube</h1>
       </section>
       <form onSubmit={onSubmit} className={styles.form}>
@@ -46,7 +46,7 @@ const Header = memo(({ onSearch, goHome }) => {
           <button className={styles.button}>
             <img
               className={styles.button_img}
-              src="/images/search.png"
+              src="./images/search.png"
               alt="search"
             />
           </button>

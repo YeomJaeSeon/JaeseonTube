@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JaeseonTube/static/css/main.6d3d0e31.chunk.css",
-    "main.js": "/JaeseonTube/static/js/main.5de1cdeb.chunk.js",
-    "main.js.map": "/JaeseonTube/static/js/main.5de1cdeb.chunk.js.map",
+    "main.js": "/JaeseonTube/static/js/main.7f3c7f4f.chunk.js",
+    "main.js.map": "/JaeseonTube/static/js/main.7f3c7f4f.chunk.js.map",
     "runtime-main.js": "/JaeseonTube/static/js/runtime-main.22e5f5b7.js",
     "runtime-main.js.map": "/JaeseonTube/static/js/runtime-main.22e5f5b7.js.map",
     "static/js/2.b409b8b0.chunk.js": "/JaeseonTube/static/js/2.b409b8b0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.22e5f5b7.js",
     "static/js/2.b409b8b0.chunk.js",
     "static/css/main.6d3d0e31.chunk.css",
-    "static/js/main.5de1cdeb.chunk.js"
+    "static/js/main.7f3c7f4f.chunk.js"
   ]
 }
